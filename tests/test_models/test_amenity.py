@@ -99,6 +99,7 @@ class TestAmenity(unittest.TestCase):
         self.assertEqual(new_d["created_at"], am.created_at.strftime(t_format))
         self.assertEqual(new_d["updated_at"], am.updated_at.strftime(t_format))
 
+        
     def test_str(self):
         """test that the str method has the correct output"""
         amenity = Amenity()
